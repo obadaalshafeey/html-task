@@ -1,0 +1,28 @@
+.dd{
+display:grid ;
+grid-template-columns: auto auto auto;
+grid-template-rows: 70px auto 180px;
+row-gap: 4px;
+column-gap: 4px;
+width: auto;
+height: 100vh;
+
+}
+.d1{
+    background-color: black;
+    grid-column: 1/span 3;
+}
+.d2{
+    background-color: orange;
+    grid-column: 1/span 2;
+
+}
+.d3{
+    background-color: green;
+
+}
+.d4{
+    height: 60%;
+    background-color: blue;
+    grid-column: 1/span 3;
+}

@@ -1,0 +1,11 @@
+.ol{
+    display: flex;
+    flex-wrap: ;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+img{
+    height: 300px;
+    width: 200x;
+    border: 1px solid green
+}
